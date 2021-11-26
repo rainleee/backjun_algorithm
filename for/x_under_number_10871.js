@@ -1,5 +1,9 @@
 //https://www.acmicpc.net/problem/10871
-const input = ['10 5', '1 10 4 9 2 3 8 5 7 6'];
+const input = require('fs')
+  .readFileSync('/dev/stdin')
+  .toString()
+  .trim()
+  .split('\n');
 const totalCount = input[0].split(' ')[1];
 const number = input[1].split(' ');
 let output = '';
