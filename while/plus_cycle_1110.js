@@ -1,4 +1,5 @@
-const input = '71';
+//https://www.acmicpc.net/problem/1110
+const input = require('fs').readFileSync('/dev/stdin').toString().trim();
 
 let num = +input;
 let sum = 0;
